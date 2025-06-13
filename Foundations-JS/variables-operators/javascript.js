@@ -1,4 +1,4 @@
-let name = "John";
+// let name = "John";
 let surname = "Doe";
 
 console.log(name);
@@ -35,3 +35,23 @@ const max = 57;
 const actual = max - 13; 
 const percentage = actual / max; 
 console.log(percentage); 
+
+// ToDo: Read up on variables in JavaScript from JavaScript.info.
+//Tasks: 
+
+/* Declare two variables: admin and name.
+Assign the value "John" to name.
+Copy the value from name to admin.
+Show the value of admin using alert (must output “John”). */
+
+let  name, admin; 
+name = "Maaz"; 
+admin = name;  
+alert(admin); 
+
+/* Giving the right name, 
+
+1. Create a variable with the name of our planet. How would you name such a variable?
+2. Create a variable to store the name of a current visitor to a website. How would you name that variable?
+
+*/
